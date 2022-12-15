@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12,3,51,0..3), rgba(12,3,51,0..3));
+    position: relative;
+    padding: 0 5;
+}
+
+nav{
+    display: flex;
+     width: 80%;
+    margin: auto;
+     padding: 20px 8;
+     align-items: center;
+     justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 15px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font: bold;
+}
+nav ul li a:hover{
+    color: red;
+}
+.detel{
+    margin-left: 8%;
+    margin-right: 15%;
+
+}
+.detel h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+}
+span{
+    color: red;
+}
+
+.detel p{
+    color: grey;
+    line height: 20px;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.images img{
+height: 100%;
+position: absolute;
+left: 50%;
+bottom: 0;
+transform: translateX(-50%);
+transition: bottom 1s; left 1s;
+}
+
+
+
+.images:hover .guy{
+    bottom: 40px;
+}
+.images:hover .background{
+    bottom: 40px;
+}
+
+
+
+    
+    /* ------------about---------- */
+    .container{
+        background-color: red;
+       height: 600px;
+        padding-top: 75px;
+       
+      
+    }
+    #about{
+    padding: 80px 0px;
+    color: black;  
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1{
+   flex-basis: 35%; 
+}
+.about-col-1 img{
+    display: block;
+    margin-left: auto;
+    width:75%;
+    border-radius: 15px;
+}
+.about-col-2{
+    flex-basis: 60%;
+}
+.sub-title{
+    font-size: 45px;
+    font-weight: 600;
+}
+.paragraph{
+    font-size: 25px;
+    font-weight: 100;
+    color: gray;
+}
+
+/*--------------------gallery-------------------*/
+.gallery_cool{
+    flex-basis: 60%;
+}
+.gallery{
+    font-size: 45px;
+    font-weight: 600;
+    margin-left: 35%;
+}
+#img-gal{
+    height: 360px;
+    padding: 50px;
+    margin-right: auto;
+}
+
+/*--------------------contact-------------------*/
+.CONTACT{
+    background-color: red;
+    padding-top: 20px;
+}
+
+.CONTACT h1{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.CONTACT p{ 
+    font-size: 10 px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.CONTACT a{
+    font-size: 20px;
+    background: blue;
+    padding: 10px 18px;
+    text-decoration: solid;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+
